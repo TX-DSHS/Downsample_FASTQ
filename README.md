@@ -16,17 +16,17 @@ conda activate seqkit
 conda install -c bioconda seqkit
 ```
 
-## Usage:
+## Usage
 ```bash
-bash seqkit.sh <run_name>_downsample_list.txt <reads_dir> <downsample_type> <reads_to_remove>
+bash seqkit.sh <run_name>_downsample_list.csv <reads_dir> <downsample_type> <reads_to_remove>
 ```
 
-## Example:
+## Example
 ```bash
 # Downsample by proportion of reads
-bash seqkit.sh TX-M0922-241114_downsample_list.txt reads p 0.5
+bash seqkit.sh TX-M0922-241114_downsample_list.csv reads p 0.5
 # Downsample by number of reads
-bash seqkit.sh TX-M0922-241114_downsample_list.txt reads n 10,000
+bash seqkit.sh TX-M0922-241114_downsample_list.csv reads n 10,000
 ```
 
 ## Contributing

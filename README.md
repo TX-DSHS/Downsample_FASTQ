@@ -3,7 +3,7 @@
 Texas DSHS downsampling pipeline is designed to downsample samples using seqkit (https://github.com/shenwei356/seqkit) in order to reduce coverage. Seqkit allows to randomly select a subset of reads by downsampling by a fixed number of reads or by a proportion of reads. For our purposes, we are randomly selecting a subset of 2,000,000 reads from pair-end FASTQ files.
 
 ## Installation
-For installation details, refer to https://github.com/shenwei356/seqkitz
+For installation details, refer to https://github.com/shenwei356/seqkit
 
 ```bash
 # Initialize conda
